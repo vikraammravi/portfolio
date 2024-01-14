@@ -33,7 +33,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelors of Engineering",
+    title: "Anna University, B.E",
     location: "Chennai, India",
     description:
       "Completed my undergraduate degree with a focus on engineering principles, quickly securing a programming role at Ionixx Technolgies,where my professional journey in IT began.",
@@ -41,7 +41,7 @@ export const experiencesData = [
     date: "2013-2017",
   },
   {
-    title: "Programmer",
+    title: "Ionixx Technologies",
     location: "Chennai, India",
     description:
       "Post-graduation, I applied my engineering skills to practical challenges as a Programmer, contributing to diverse Software development projects.",
@@ -49,7 +49,7 @@ export const experiencesData = [
     date: "2017-2019",
   },
   {
-    title: "Masters of Engineering",
+    title: "University of Windsor, M.S",
     location: "Windsor, Canada",
     description:
       "Advanced my technical expertise with a Master's degree, leading to an opportunity at Scotia Bank as Senior Full-Stack Developer upon graduation.",
@@ -57,7 +57,7 @@ export const experiencesData = [
     date: "2019-2020",
   },
   {
-    title: "Senior Full-Stack Developer",
+    title: "Scotia Bank",
     location: "Toronto, Canada",
     description:
       "As a Senior Full-Stack Developer,I've been implementing complex solution using a modern tech stack and am currently exploring new opportunities.",
