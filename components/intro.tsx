@@ -64,7 +64,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Vikram,</span> a creative force in {" "}
         <span className="font-bold">Frontend development</span> with{" "}
-        <span className="font-bold">4.5 years</span> of Professional experience in <span className="underline">React & Next.js</span>.{" "}
+        <span className="font-bold">5 years</span> of Professional experience in <span className="underline">React & Next.js</span>.{" "}
         I'm all about building <span className="italic">Digital experience</span> that delight and deliver. Let's transform ideas into impressive realities.  
       </motion.h1>
 
@@ -103,14 +103,6 @@ export default function Intro() {
           target="_blank"
         >
           <BsLinkedin />
-        </a>
-
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/vikraammravi/portfolio"
-          target="_blank"
-        >
-          <FaGithubSquare />
         </a>
       </motion.div>
     </section>

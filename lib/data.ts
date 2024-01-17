@@ -33,20 +33,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Anna University, B.E",
-    location: "Chennai, India",
+    title: "Scotia Bank",
+    location: "Toronto, Canada",
     description:
-      "Completed my undergraduate degree with a focus on engineering principles, quickly securing a programming role at Ionixx Technolgies,where my professional journey in IT began.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2013-2017",
-  },
-  {
-    title: "Ionixx Technologies",
-    location: "Chennai, India",
-    description:
-      "Post-graduation, I applied my engineering skills to practical challenges as a Programmer, contributing to diverse Software development projects.",
+      "As a Senior Full-Stack Developer,I've been implementing complex solution using a modern tech stack and am currently exploring new opportunities.",
     icon: React.createElement(CgWorkAlt),
-    date: "2017-2019",
+    date: "2021 - present",
   },
   {
     title: "University of Windsor, M.S",
@@ -57,12 +49,20 @@ export const experiencesData = [
     date: "2019-2020",
   },
   {
-    title: "Scotia Bank",
-    location: "Toronto, Canada",
+    title: "Ionixx Technologies",
+    location: "Chennai, India",
     description:
-      "As a Senior Full-Stack Developer,I've been implementing complex solution using a modern tech stack and am currently exploring new opportunities.",
+      "Post-graduation, I applied my engineering skills to practical challenges as a Programmer, contributing to diverse Software development projects.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - present",
+    date: "2017-2019",
+  },
+  {
+    title: "Anna University, B.E",
+    location: "Chennai, India",
+    description:
+      "Completed my undergraduate degree with a focus on engineering principles, quickly securing a programming role at Ionixx Technolgies,where my professional journey in IT began.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2013-2017",
   },
 ] as const;
 
