@@ -24,7 +24,7 @@ export default function About() {
         <span className="underline">HTML5, CSS3, JavaScript</span>, and various
         modern frameworks and libraries like{" "}
         <span className="underline">
-          React.js, Next.js, Angular 14, & Node.js
+          React.js, Next.js, Angular 14, & Java
         </span>
         . My passion for web development is not just about writing code, but
         also about creating intuitive, efficient user experiences.
