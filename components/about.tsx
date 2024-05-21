@@ -23,9 +23,7 @@ export default function About() {
         using a broad spectrum of technologies. I am proficient in{" "}
         <span className="underline">HTML5, CSS3, JavaScript</span>, and various
         modern frameworks and libraries like{" "}
-        <span className="underline">
-          React.js, Next.js, Angular 14, & Java
-        </span>
+        <span className="underline">React.js, Next.js, Angular 17, & Java</span>
         . My passion for web development is not just about writing code, but
         also about creating intuitive, efficient user experiences.
       </p>
