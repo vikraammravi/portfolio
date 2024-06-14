@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import escapeAtlasImg from "@/public/EscapeAtlas.jpg";
- 
+import flightFerry from "@/public/FlightFerry.jpg"; 
 
 export const links = [
   {
@@ -68,11 +68,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "EscapeAtlas React app",
-    description:
+    title: "EscapeAtlas",
+    description: "EscapeAtleas is a adventure travel website where users can find and explore exotic destinations.",
+    link:
       "https://escapeatlas-reactapp.vercel.app",
     tags: ["HTML","CSS","Javascript","React"],
     imageUrl: escapeAtlasImg,
+  },
+  {
+    title: "Flight-Ferry",
+    description: "Flight ferry is a platform connecting with travellers to Transport Documents,clothes etc in their unused space in luggage.",
+    link:
+      "https://flightferry.vercel.app/",
+    tags: ["HTML","CSS","Javascript","Next.Js","MongoDB"],
+    imageUrl: flightFerry,
   }
 ] as const;
 

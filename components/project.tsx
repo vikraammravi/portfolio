@@ -10,6 +10,7 @@ type ProjectProps = (typeof projectsData)[number];
 export default function Project({
   title,
   description,
+  link,
   tags,
   imageUrl,
 }: ProjectProps) {
@@ -34,9 +35,17 @@ export default function Project({
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
-          EscapeAtleas is a adventure travel website where users can find and explore exotic destinations.
-           <br/>
-           <span className="font-bold">Link: </span><a href={description} target="_blank" className="mt-4 hover:underline italic">    {description}</a>
+            {description}
+            <br />
+            <span className="font-bold">Link: </span>
+            <a
+              href={link}
+              target="_blank"
+              className="mt-4 hover:underline italic"
+            >
+              {" "}
+              {link}
+            </a>
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
