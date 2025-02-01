@@ -66,8 +66,8 @@ export default function Intro() {
         in <span className="font-bold">Fullstack development</span> with{" "}
         <span className="font-bold">6+ years</span> of Professional experience
         in{" "}
-        <span className="underline">Angular 17, React.Js,Next.js & Java</span>.
-        I'm all about building{" "}
+        <span className="underline">React.Js,Next.js,Angular 17 & Node.Js</span>
+        . I'm all about building{" "}
         <span className="italic">Digital experience</span> that delight and
         deliver. Let's transform ideas into impressive realities.
       </motion.h1>

@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import escapeAtlasImg from "@/public/EscapeAtlas.jpg";
-import flightFerry from "@/public/FlightFerry.jpg"; 
+import flightFerry from "@/public/FlightFerry.jpg";
 
 export const links = [
   {
@@ -41,7 +41,7 @@ export const experiencesData = [
     date: "2021 - present",
   },
   {
-    title: "University of Windsor, M.S",
+    title: "University of Windsor",
     location: "Windsor, Canada",
     description:
       "Advanced my technical expertise with a Master's degree, leading to an opportunity at Scotia Bank as Senior Full-Stack Developer upon graduation.",
@@ -57,7 +57,7 @@ export const experiencesData = [
     date: "2017-2019",
   },
   {
-    title: "Anna University, B.E",
+    title: "Anna University",
     location: "Chennai, India",
     description:
       "Completed my undergraduate degree with a focus on engineering principles, quickly securing a programming role at Ionixx Technolgies,where my professional journey in IT began.",
@@ -69,20 +69,20 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "EscapeAtlas",
-    description: "EscapeAtleas is a adventure travel website where users can find and explore exotic destinations.",
-    link:
-      "https://escapeatlas-reactapp.vercel.app",
-    tags: ["HTML","CSS","Javascript","React"],
+    description:
+      "EscapeAtleas is a adventure travel website where users can find and explore exotic destinations.",
+    link: "https://escapeatlas-reactapp.vercel.app",
+    tags: ["HTML", "CSS", "Javascript", "React"],
     imageUrl: escapeAtlasImg,
   },
   {
     title: "Flight-Ferry",
-    description: "Flight ferry is a platform connecting with travellers to Transport Documents,clothes etc in their unused space in luggage.",
-    link:
-      "https://flightferry.vercel.app/",
-    tags: ["HTML","CSS","Javascript","Next.Js","MongoDB"],
+    description:
+      "Flight ferry is a platform connecting with travellers to Transport Documents,clothes etc in their unused space in luggage.",
+    link: "https://flightferry.vercel.app/",
+    tags: ["HTML", "CSS", "Javascript", "Next.Js", "MongoDB"],
     imageUrl: flightFerry,
-  }
+  },
 ] as const;
 
 export const skillsData = [
@@ -98,6 +98,6 @@ export const skillsData = [
   "Redux",
   "Next.Js",
   "GraphQL",
-  "Java",
+  "Node.Js",
   "MySQL",
 ] as const;

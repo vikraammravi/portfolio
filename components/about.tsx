@@ -19,41 +19,42 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        My expertise lies in creating dynamic and user-friendly web applications
-        using a broad spectrum of technologies. I am proficient in{" "}
-        <span className="underline">HTML5, CSS3, JavaScript</span>, and various
-        modern frameworks and libraries like{" "}
-        <span className="underline">React.js, Next.js, Angular 17, & Java</span>
-        . My passion for web development is not just about writing code, but
-        also about creating intuitive, efficient user experiences.
+        My expertise lies in building high-performance, scalable web
+        applications using a diverse tech stack. I am proficient in{" "}
+        <span className="underline">
+          {" "}
+          React.js, Next.js, Angular 17, Node.js, and PostgreSQL with Sequelize,
+        </span>{" "}
+        ensuring seamless frontend and backend integration. My passion for
+        development extends beyond writing code—I focus on crafting{" "}
+        <span className="underline">
+          efficient, intuitive, and user-centric applications.
+        </span>
       </p>
       <p>
         In my recent role at{" "}
-        <span className="italic">Scotia Bank, Toronto</span>, as a{" "}
-        <span className="font-medium">Senior Full Stack Developer</span>, I
-        honed my skills in developing single-page applications, handling project
-        management with Agile methodologies, and leading initiatives that
-        improved application performance by 30%. Prior to this, at{" "}
-        <span className="italic">Ionixx Technologies in Chennai</span>, I played
-        a key role in agile development teams, focusing on optimizing web
-        interfaces for various platforms and ensuring seamless integration with
-        backend services.
-      </p>
-      <p>
-        <span className="italic"> My approach to development</span> is not only
-        about meeting technical requirements but also about understanding and
-        fulfilling user needs. I believe in continuous learning and staying
-        updated with the latest industry trends, which helps me to deliver{" "}
-        <span className="font-medium">cutting-edge solutions</span> .
+        <span className="italic">Scotia Bank, Toronto,</span> as a Senior Full
+        Stack Developer, I led Next.js migrations, optimized application
+        performance by 30%, and enhanced CI/CD pipelines, improving deployment
+        speed by 40%. Prior to this, at{" "}
+        <span className="italic">Ionixx Technologies, Chennai,</span> I played a
+        key role in developing RESTful APIs with Node.js and Sequelize,
+        optimizing database queries, and integrating scalable AWS deployments.
       </p>
       <p className="mb-3">
-        When I'm not coding, you can find me{" "}
-        <span className="italic">exploring new technologies</span>, or{" "}
-        <span className="italic">contributing to tech communities</span>. I am a
-        team player with strong{" "}
-        <span className="font-medium">analytical skills</span> and a knack for{" "}
-        <span className="font-medium">problem-solving</span>, making me an asset
-        in any collaborative project.
+        I believe that great development is a balance between{" "}
+        <span className="font-medium">
+          technical excellence and user experience
+        </span>
+        . Staying updated with{" "}
+        <span className="font-medium">
+          odern JavaScript best practices, microservices architecture, and cloud
+          technologies
+        </span>{" "}
+        enables me to build robust solutions. Outside of work, I enjoy exploring
+        emerging web trends, optimizing system performance, and mentoring
+        developers. I thrive in collaborative environments, leveraging
+        problem-solving skills to drive innovation.
       </p>
       <p className="italic font-bold">
         Let's connect and create something amazing together!
