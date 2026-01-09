@@ -19,45 +19,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        My expertise lies in building high-performance, scalable web
-        applications using a diverse tech stack. I am proficient in{" "}
-        <span className="underline">
-          {" "}
-          React.js, Next.js, Angular 17, Node.js, and PostgreSQL with Sequelize,
-        </span>{" "}
-        ensuring seamless frontend and backend integration. My passion for
-        development extends beyond writing code—I focus on crafting{" "}
-        <span className="underline">
-          efficient, intuitive, and user-centric applications.
-        </span>
+        I'm a Senior Full Stack Developer with <span className="font-medium">6+ years of experience</span> designing and delivering high-performance, scalable web applications. My expertise spans the entire development lifecycle, from crafting <span className="underline">elegant frontend architectures with React, Next.js, and TypeScript</span> to building <span className="underline">robust backend systems with Node.js, Express.js, and PostgreSQL</span>. I'm passionate about creating <span className="underline">efficient, intuitive, and user-centric applications</span> that solve real-world problems.
       </p>
       <p>
-        In my recent role at{" "}
-        <span className="italic">Scotia Bank, Toronto,</span> as a Senior Full
-        Stack Developer, I led Next.js migrations, optimized application
-        performance by 30%, and enhanced CI/CD pipelines, improving deployment
-        speed by 40%. Prior to this, at{" "}
-        <span className="italic">Ionixx Technologies, Chennai,</span> I played a
-        key role in developing RESTful APIs with Node.js and Sequelize,
-        optimizing database queries, and integrating scalable AWS deployments.
+        At <span className="italic font-semibold">Scotiabank,</span> as a Senior Full Stack Developer, I've led major initiatives including architecting a frontend application from scratch with scalable folder structures and coding standards, implementing lazy loading and code-splitting to reduce load times, and designing custom React hooks for improved reusability and testability. I spearheaded the migration from Storybook 6 to Storybook 9, built and maintained a centralized component library, and established CI-based pull request validation strengthening code quality. Additionally, I've optimized the performance of 10+ pages leveraging tools like Lighthouse and Web Vitals, collaborated with backend teams on API optimization, and deployed high-availability applications on AWS. I also mentor teams of 5+ developers, conducting code reviews and knowledge-sharing sessions.
+      </p>
+      <p>
+        Previously, at <span className="italic font-semibold">Ionixx Technologies,</span> I contributed to diverse projects including building real-time location-based applications with React and maps integration, driving a legacy system migration to Next.js achieving 30% performance improvement, optimizing Node.js backend with Redis caching strategies (40% query reduction), and developing RESTful APIs with Express.js and Node.js. I collaborated with DevOps teams to establish automated deployment pipelines and worked closely with backend engineers to optimize API calls and database interactions.
       </p>
       <p className="mb-3">
-        I believe that great development is a balance between{" "}
-        <span className="font-medium">
-          technical excellence and user experience
-        </span>
-        . Staying updated with{" "}
-        <span className="font-medium">
-          odern JavaScript best practices, microservices architecture, and cloud
-          technologies
-        </span>{" "}
-        enables me to build robust solutions. Outside of work, I enjoy exploring
-        emerging web trends, optimizing system performance, and mentoring
-        developers. I thrive in collaborative environments, leveraging
-        problem-solving skills to drive innovation.
+        I believe exceptional development is a balance between <span className="font-medium">technical excellence, clean architecture, and user experience</span>. Staying current with <span className="font-medium">modern JavaScript, TypeScript, microservices patterns, cloud technologies (AWS), and DevOps practices (CI/CD, Docker)</span> enables me to architect robust, maintainable solutions. I'm proficient in testing frameworks (Jest, React Testing Library, Playwright), performance optimization, and agile methodologies. Outside of work, I enjoy exploring emerging web trends, optimizing system performance, contributing to open-source projects, and mentoring fellow developers. I thrive in collaborative environments where I can leverage problem-solving skills to drive innovation and build impactful products.
       </p>
       <p className="italic font-bold">
-        Let's connect and create something amazing together!
+        Let's connect and create something extraordinary together!
       </p>
     </motion.section>
   );
