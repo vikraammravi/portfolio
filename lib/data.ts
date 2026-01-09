@@ -34,10 +34,11 @@ export const links = [
 export const experiencesData = [
   {
     title: "Scotiabank - Senior Full Stack Developer",
+    location:"",
     description:
       "Led frontend architecture and full-stack development on large-scale applications. Architected scalable folder structures, established coding standards, and drove performance optimization. Implemented custom React hooks, led Storybook migration, and established CI-based PR validation. Mentored 5+ developers and deployed high-availability applications on AWS. Improved 10+ pages performance and contributed to 30+ successful feature releases.",
     icon: React.createElement(CgWorkAlt),
-    date: "Aug 2021 - present",
+    date: "Aug 2021 - present"
   },
   {
     title: "Master of Engineering",
@@ -49,6 +50,7 @@ export const experiencesData = [
   },
   {
     title: "Ionixx Technologies - Programmer",
+    location: "",
     description:
       "Built real-time location-based applications and optimized legacy systems. Migrated locator system to Next.js (30% performance improvement). Optimized Node.js backend with Redis caching (40% query time reduction). Implemented Express.js middleware for request handling and RESTful APIs with React and Redux.",
     icon: React.createElement(CgWorkAlt),
