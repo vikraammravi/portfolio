@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
@@ -10,6 +10,18 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
+  const navRef = useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    const active = navRef.current?.querySelector<HTMLLIElement>(
+      `li[data-section="${activeSection}"]`
+    );
+    active?.scrollIntoView({
+      behavior: "smooth",
+      inline: "center",
+      block: "nearest",
+    });
+  }, [activeSection]);
 
   return (
     <header className="z-[999] relative">
@@ -20,11 +32,15 @@ export default function Header() {
       ></motion.div>
 
       <nav className="flex fixed top-0 left-0 right-0 h-[3.5rem] items-center sm:left-1/2 sm:-translate-x-1/2 sm:top-[1.7rem] sm:h-[initial] sm:py-0 sm:right-auto">
-        <ul className="flex w-full overflow-x-auto no-scrollbar items-center gap-1 px-3 text-[0.85rem] font-medium text-gray-500 sm:overflow-visible sm:w-[initial] sm:justify-center sm:gap-3 sm:text-[0.9rem] sm:px-0">
+        <ul
+          ref={navRef}
+          className="flex w-full overflow-x-auto no-scrollbar items-center gap-1 px-3 text-[0.85rem] font-medium text-gray-500 sm:overflow-visible sm:w-[initial] sm:justify-center sm:gap-3 sm:text-[0.9rem] sm:px-0 scroll-smooth"
+        >
           {links.map((link) => (
             <motion.li
               className="h-3/4 flex items-center justify-center relative shrink-0"
               key={link.hash}
+              data-section={link.name}
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
             >
