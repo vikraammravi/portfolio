@@ -12,9 +12,24 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://vikramportfolio.vercel.app"),
   title: "Vikram Ravi | Applied AI Engineer",
   description:
     "Applied AI Engineer with 7+ years of production engineering experience building Agentic RAG, LangGraph multi-agent systems, and LLM apps with Claude & Gemini.",
+  openGraph: {
+    title: "Vikram Ravi | Applied AI Engineer",
+    description:
+      "7+ years building Agentic RAG, LangGraph multi-agent systems, and LLM apps with Claude & Gemini.",
+    url: "https://vikramportfolio.vercel.app",
+    siteName: "Vikram Ravi Portfolio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vikram Ravi | Applied AI Engineer",
+    description:
+      "7+ years building Agentic RAG, LangGraph multi-agent systems, and LLM apps.",
+  },
 };
 
 export default function RootLayout({
