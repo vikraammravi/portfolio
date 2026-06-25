@@ -17,7 +17,7 @@ const fadeIn = {
 };
 
 export default function Certifications() {
-  const { ref } = useSectionInView("Certs");
+  const { ref } = useSectionInView("Certs", 0.5);
 
   return (
     <section
