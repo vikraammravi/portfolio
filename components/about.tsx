@@ -19,19 +19,49 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        I'm a Senior Full Stack Developer with <span className="font-medium">6+ years of experience</span> designing and delivering high-performance, scalable web applications. My expertise spans the entire development lifecycle, from crafting <span className="underline">elegant frontend architectures with React, Next.js, and TypeScript</span> to building <span className="underline">robust backend systems with Node.js, Express.js, and PostgreSQL</span>. I'm passionate about creating <span className="underline">efficient, intuitive, and user-centric applications</span> that solve real-world problems.
+        I'm an{" "}
+        <span className="font-medium">Applied AI Engineer</span> with{" "}
+        <span className="font-medium">7+ years</span> of production engineering
+        experience, focused on{" "}
+        <span className="underline">
+          Agentic RAG, LangGraph multi-agent orchestration, and LLM application
+          development
+        </span>{" "}
+        in regulated enterprise environments.
       </p>
       <p>
-        At <span className="italic font-semibold">Scotiabank,</span> as a Senior Full Stack Developer, I've led major initiatives including architecting a frontend application from scratch with scalable folder structures and coding standards, implementing lazy loading and code-splitting to reduce load times, and designing custom React hooks for improved reusability and testability. I spearheaded the migration from Storybook 6 to Storybook 9, built and maintained a centralized component library, and established CI-based pull request validation strengthening code quality. Additionally, I've optimized the performance of 10+ pages leveraging tools like Lighthouse and Web Vitals, collaborated with backend teams on API optimization, and deployed high-availability applications on AWS. I also mentor teams of 5+ developers, conducting code reviews and knowledge-sharing sessions.
-      </p>
-      <p>
-        Previously, at <span className="italic font-semibold">Ionixx Technologies,</span> I contributed to diverse projects including building real-time location-based applications with React and maps integration, driving a legacy system migration to Next.js achieving 30% performance improvement, optimizing Node.js backend with Redis caching strategies (40% query reduction), and developing RESTful APIs with Express.js and Node.js. I collaborated with DevOps teams to establish automated deployment pipelines and worked closely with backend engineers to optimize API calls and database interactions.
+        At <span className="italic">Scotiabank</span>, I contributed to a
+        production Agentic RAG platform serving{" "}
+        <span className="font-medium">500+ internal branches</span>. I designed
+        agent orchestration across a LangGraph pipeline (planner, retrieval
+        agents, tool-calling, iterative refinement), implemented{" "}
+        <span className="underline">
+          hybrid retrieval (Apache Solr BM25 + vector) with MMR re-ranking
+        </span>
+        , a two-level Redis caching layer, SSE streaming, and an asynchronous
+        guardrails layer with PII scrubbing and prompt-injection interception.
+        Retrieval quality is evaluated offline with{" "}
+        <span className="font-medium">RAGAS</span> and{" "}
+        <span className="font-medium">LLM-as-a-judge</span> scoring, with{" "}
+        <span className="font-medium">LangSmith</span> tracing for end-to-end
+        observability.
       </p>
       <p className="mb-3">
-        I believe exceptional development is a balance between <span className="font-medium">technical excellence, clean architecture, and user experience</span>. Staying current with <span className="font-medium">modern JavaScript, TypeScript, microservices patterns, cloud technologies (AWS), and DevOps practices (CI/CD, Docker)</span> enables me to architect robust, maintainable solutions. I'm proficient in testing frameworks (Jest, React Testing Library, Playwright), performance optimization, and agile methodologies. Outside of work, I enjoy exploring emerging web trends, optimizing system performance, contributing to open-source projects, and mentoring fellow developers. I thrive in collaborative environments where I can leverage problem-solving skills to drive innovation and build impactful products.
+        I build and evaluate end-to-end AI systems using{" "}
+        <span className="font-medium">Claude and Gemini APIs</span> on a
+        foundation of <span className="font-medium">Python, FastAPI, React,
+        and TypeScript</span>. I hold the{" "}
+        <span className="font-medium">AWS Certified Developer – Associate</span>{" "}
+        and Anthropic Academy certifications in the Claude API and Model
+        Context Protocol (MCP). Delivering AI in a regulated fintech context
+        has shaped how I think about{" "}
+        <span className="font-medium">
+          responsible AI — auditability, human escalation, and guardrails
+        </span>{" "}
+        as first-class concerns.
       </p>
       <p className="italic font-bold">
-        Let's connect and create something extraordinary together!
+        Let's build something useful together.
       </p>
     </motion.section>
   );

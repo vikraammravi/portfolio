@@ -5,13 +5,16 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
+import ScrollProgress from "@/components/scroll-progress";
+import { Analytics } from "@vercel/analytics/next";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Vikram | Personal Portfolio",
-  description: "Vikram is a Senior Full-stack developer with 6 years of experience.",
+  title: "Vikram Ravi | Applied AI Engineer",
+  description:
+    "Applied AI Engineer with 7+ years of production engineering experience building Agentic RAG, LangGraph multi-agent systems, and LLM apps with Claude & Gemini.",
 };
 
 export default function RootLayout({
@@ -29,6 +32,7 @@ export default function RootLayout({
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
+            <ScrollProgress />
             <Header />
             {children}
             <Footer />
@@ -37,6 +41,7 @@ export default function RootLayout({
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
+        <Analytics />
       </body>
     </html>
   );

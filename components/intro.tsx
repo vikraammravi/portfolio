@@ -30,15 +30,20 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
-              src="/profile.jpeg"
-              alt="Vikram portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+            <motion.div
+              animate={{ y: [0, -3, 0] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <Image
+                src="/profile.jpeg"
+                alt="Vikram portrait"
+                width="192"
+                height="192"
+                quality="95"
+                priority={true}
+                className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              />
+            </motion.div>
           </motion.div>
 
           <motion.span
@@ -62,7 +67,16 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Vikram Ravi,</span> a Senior Full Stack Developer with <span className="font-bold">6+ years</span> of experience designing and delivering <span className="font-bold">high-performance, scalable web applications</span>. Specialized in <span className="underline">React.js, Next.js, Node.js, and modern cloud technologies</span>. I'm passionate about building <span className="italic">elegant digital experiences</span> that combine technical excellence with exceptional user experience. Let's transform your ideas into impressive realities.
+        <span className="font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:200%_auto] animate-[shimmer_4s_linear_infinite]">
+          Hello, I'm Vikram
+        </span>
+        , an <span className="font-bold">Applied AI Engineer</span> with{" "}
+        <span className="font-bold">7+ years</span> of production engineering
+        experience, specializing in{" "}
+        <span className="underline">Agentic RAG, LangGraph multi-agent systems, and LLM apps</span>
+        . I build end-to-end AI systems on{" "}
+        <span className="italic">Claude & Gemini APIs</span> with a strong
+        foundation in Python, FastAPI, React, and TypeScript.
       </motion.h1>
 
       <motion.div
@@ -100,6 +114,14 @@ export default function Intro() {
           target="_blank"
         >
           <BsLinkedin />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://github.com/vikraammravi"
+          target="_blank"
+        >
+          <FaGithubSquare />
         </a>
       </motion.div>
     </section>
